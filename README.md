@@ -29,3 +29,25 @@ Vibe coding stuff
    Run the script whenever you need fresh copies.
 
 3. Open `awakening.mid` in MuseScore to shape the final *Awakening* score.
+
+## Decentralized AI Ecosystem Simulator
+
+`ecosystem_sim.py` simulates a decentralized AI research ecosystem as a dynamical system with adaptive coupling and shock events.
+
+### Usage
+
+```bash
+pip install numpy matplotlib
+python ecosystem_sim.py --run-sweep
+```
+
+Optional interactive tuning:
+
+```bash
+python ecosystem_sim.py --interactive
+```
+
+Outputs are written to `outputs/` by default:
+- `trajectory.png`
+- `phase_omega.png`
+- `phase_class.png` (when `--run-sweep` is used)
