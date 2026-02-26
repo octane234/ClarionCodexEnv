@@ -1,2 +1,9 @@
-awakening.mid
-emotional_heatmap.png
+__pycache__/
+*.pyc
+*.sqlite3
+backend/.venv/
+backend/optionality_tracker.db
+frontend/node_modules/
+frontend/dist/
+
+frontend/*.tsbuildinfo
